@@ -184,7 +184,7 @@ export default function App() {
 
   // 4. Draw the actual screen
   return (
-    <main className="min-h-screen bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-slate-900 via-slate-950 to-black pt-24 pb-10 px-4 font-sans text-slate-200 flex flex-col items-center relative selection:bg-emerald-500/30">
+    <main className="min-h-screen bg-slate-950 bg-gradient-to-b from-slate-900 to-black pt-24 pb-10 px-4 font-sans text-slate-200 flex flex-col items-center relative selection:bg-emerald-500/30">
       <div className="w-full max-w-2xl flex flex-col gap-6">
 
         {/* TOP BLOCK: Heatmap & Streaks */}
