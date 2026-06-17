@@ -279,7 +279,7 @@ export default function App() {
         title="Information"
         onClick={() => setIsInfoOpen(true)} // Opens the modal
       >
-        i
+        <em>i</em>
       </button>
 
       {/* THE INFO MODAL (Only renders if isInfoOpen is true) */}
